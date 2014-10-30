@@ -30,6 +30,7 @@ namespace ScrollWatchedSelector
                     ScrollingEventArgs e = new ScrollingEventArgs(_scrollWatchedSelector.scrollingType);
                     _scrollWatchedSelector.InvokeScrollingEvent(e);
                 }
+                _scrollWatchedSelector.scroll = voffset;
             }
             else if (voffset < _scrollWatchedSelector.scroll - 30)
             {
@@ -40,9 +41,8 @@ namespace ScrollWatchedSelector
                     ScrollingEventArgs e = new ScrollingEventArgs(_scrollWatchedSelector.scrollingType);
                     _scrollWatchedSelector.InvokeScrollingEvent(e);
                 }
-            }
-            if (Math.Abs(_scrollWatchedSelector.scroll - voffset) > 30)
                 _scrollWatchedSelector.scroll = voffset;
+            }
         }
     }
 }
