@@ -25,7 +25,8 @@ namespace ScrollWatchedSelector
 
         public void InvokeScrollingEvent(ScrollingEventArgs e)
         {
-            GoingTopOrBottom(this, e);
+            if (GoingTopOrBottom != null)
+                GoingTopOrBottom(this, e);
         }
     }
 }
