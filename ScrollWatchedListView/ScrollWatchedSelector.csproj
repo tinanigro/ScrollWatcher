@@ -45,11 +45,7 @@
     <Compile Include="ScrollWatchedListView.cs" />
     <Compile Include="ScrollWatchedSelector.cs" />
     <Compile Include="SelectorHelper.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="WinRTXamlToolkit">
-      <HintPath>C:\Users\thomasnigro\SourceCode\VLC\winrt\app\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit.dll</HintPath>
-    </Reference>
+    <Compile Include="VisualTreeHelperExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
