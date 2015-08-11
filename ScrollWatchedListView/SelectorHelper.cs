@@ -1,6 +1,5 @@
 ﻿using System;
 using Windows.UI.Xaml.Controls;
-using WinRTXamlToolkit.Controls.Extensions;
 
 namespace ScrollWatchedSelector
 {
