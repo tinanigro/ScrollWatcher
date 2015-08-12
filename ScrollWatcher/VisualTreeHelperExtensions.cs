@@ -8,7 +8,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Media;
 
-namespace ScrollWatchedSelector
+namespace ScrollWatcher
 {
     /// <summary>
     /// Extension methods for DependencyObjects

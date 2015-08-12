@@ -8,8 +8,8 @@
     <ProjectGuid>{4643DC90-F9D1-4AB7-886E-99C444D771B3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ScrollWatchedSelector</RootNamespace>
-    <AssemblyName>ScrollWatchedSelector</AssemblyName>
+    <RootNamespace>ScrollWatcher</RootNamespace>
+    <AssemblyName>ScrollWatcher</AssemblyName>
     <DefaultLanguage>fr-FR</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -39,12 +39,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScrollDirection.cs" />
     <Compile Include="ScrollingEventArgs.cs" />
-    <Compile Include="ScrollingType.cs" />
-    <Compile Include="ScrollWatchedGridView.cs" />
-    <Compile Include="ScrollWatchedListView.cs" />
-    <Compile Include="ScrollWatchedSelector.cs" />
-    <Compile Include="SelectorHelper.cs" />
+    <Compile Include="GridViewScrollWatcher.cs" />
+    <Compile Include="ListViewScrollWatcher.cs" />
+    <Compile Include="IScrollWatcher.cs" />
+    <Compile Include="ItemsControlHelper.cs" />
     <Compile Include="VisualTreeHelperExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
