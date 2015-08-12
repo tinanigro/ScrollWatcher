@@ -1,6 +1,10 @@
 ScrollWatchedSelector
 =====================
 
-This solution has an extended ListView and GridView controls that fire an event called "GoingToTopOrBottom" (yeah, the name is really crap). This event is fired, well, when the user scrolls to the top or the bottom of the listview/gridview.
-It is used in VLC for Windows Phone, I made it really quick, any improvement is welcomed.
+This repo provides a simple way to detect if a ListView or a GridView is scrolling to the top, or the bottom. You just need to register to the ScrollDetected event and look at the ScrollDirection property included in the ScrollingEventArgs argument.
+
+There's a blogpost explaining what it does (in French) : http://blog.thomasnigro.fr/2014/10/30/listview-et-gridview-detecter-un-scroll-vers-le-haut-ou-vers-le-bas/
+However it should be pretty straightforward.
+
+BTW, any improvement is welcomed.
 Thomas Nigro
